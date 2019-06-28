@@ -4,7 +4,7 @@
 \name{grainchanger-package}
 \alias{grainchanger}
 \alias{grainchanger-package}
-\title{grainchanger: Moving-window and direct data aggregation}
+\title{grainchanger: Moving-Window and Direct Data Aggregation}
 \description{
 \if{html}{\figure{logo.png}{options: align='right'}}
 
@@ -17,8 +17,8 @@ Data aggregation via moving window or direct methods. Aggregate a
 \seealso{
 Useful links:
 \itemize{
-  \item \url{https://github.com/laurajanegraham/grainchanger}
-  \item Report bugs at \url{https://github.com/laurajanegraham/grainchanger/issues}
+  \item \url{https://github.com/ropensci/grainchanger}
+  \item Report bugs at \url{https://github.com/ropensci/grainchanger/issues}
 }
 
 }
