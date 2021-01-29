@@ -1,4 +1,4 @@
-## ---- include = FALSE----------------------------------------------------
+## ---- include = FALSE---------------------------------------------------------
 knitr::opts_chunk$set(
   collapse = TRUE,
   warning = FALSE,
@@ -6,7 +6,7 @@ knitr::opts_chunk$set(
   comment = "#>"
 )
 
-## ------------------------------------------------------------------------
+## -----------------------------------------------------------------------------
 library(grainchanger)
 library(sf)
 library(ggplot2)
@@ -41,7 +41,7 @@ ggplot(coarse_dat, aes(fill = shdi_3)) +
   geom_sf() + 
   theme_bw()
 
-## ---- warning = TRUE-----------------------------------------------------
+## ---- warning = TRUE----------------------------------------------------------
 g_sf$shei_4 <- winmove_agg(coarse_dat = g_sf, 
                                  fine_dat = cat_ls,
                                  d = 4,
@@ -51,7 +51,7 @@ g_sf$shei_4 <- winmove_agg(coarse_dat = g_sf,
                                  is_grid = FALSE,
                                  lc_class = 1:4)
 
-## ------------------------------------------------------------------------
+## -----------------------------------------------------------------------------
 library(sf)
 library(ggplot2)
 
@@ -67,7 +67,7 @@ ggplot(coarse_dat, aes(fill = var_range)) +
   geom_sf() + 
   theme_bw()
 
-## ----functions, echo = FALSE---------------------------------------------
+## ----functions, echo = FALSE--------------------------------------------------
 function_overview <- data.frame(
   `Function Name` = c("prop", "shdi", "shei", "range"),
   `Description` = c("Calculate the proportion of a given class", 
@@ -82,7 +82,7 @@ function_overview <- data.frame(
 
 knitr::kable(function_overview)
 
-## ----torus---------------------------------------------------------------
+## ----torus--------------------------------------------------------------------
 torus <- create_torus(cat_ls, 5)
 
 landscapetools::show_landscape(torus)

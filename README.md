@@ -5,17 +5,14 @@
 
 <!-- badges: start -->
 
-[![Travis build
-status](https://travis-ci.org/ropensci/grainchanger.svg?branch=master)](https://travis-ci.org/ropensci/grainchanger)
+[![R-CMD-check](https://github.com/ropensci/grainchanger/workflows/R-CMD-check/badge.svg)](https://github.com/ropensci/grainchanger/actions)
 [![Codecov test
 coverage](https://codecov.io/gh/ropensci/grainchanger/branch/master/graph/badge.svg)](https://codecov.io/gh/ropensci/grainchanger?branch=master)
 [![CRAN
 status](https://www.r-pkg.org/badges/version/grainchanger)](https://cran.r-project.org/package=grainchanger)
-[![](https://cranlogs.r-pkg.org/badges/grainchanger)](https://cran.r-project.org/package=grainchanger)
-[![Project Status: Active â€“ The project has reached a stable, usable
-state and is being actively
-developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
-
+[![CranLogs](https://cranlogs.r-pkg.org/badges/grainchanger)](https://cran.r-project.org/package=grainchanger)
+[![Project Status:
+Active](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
 <!-- badges: end -->
 
 The `grainchanger` package provides functionality for data aggregation
@@ -117,8 +114,6 @@ g_raster <- raster(system.file("raster/g_raster.tif", package = "grainchanger"))
 dda <- nomove_agg(coarse_dat = g_raster,
                        fine_dat = cont_ls, 
                        agg_fun = var_range)
-#> aggregation assumes all cells are rectangular
-#> <U+25CF> set `is_grid = FALSE` if coarse_dat is not a grid
 
 show_landscape(dda)
 ```
@@ -132,8 +127,7 @@ with their usage outlined below. While it is possible to use
 user-defined functions within both `winmove_agg` and `nomove_agg`, we
 welcome suggestions for additional functions. Please [add as an
 issue](https://github.com/ropensci/grainchanger/issues) - doing it this
-way means we can maximise the speed of the
-function.
+way means we can maximise the speed of the function.
 
 | Function.Name | Description                               | Additional.arguments |
 | :------------ | :---------------------------------------- | :------------------- |
@@ -176,8 +170,7 @@ repository](https://github.com/ropensci/grainchanger).
     `citation(package = 'grainchanger')`
   - Please note that the `grainchanger` project is released with a
     [Contributor Code of
-    Conduct](https://ropensci.github.io/grainchanger/CODE_OF_CONDUCT.html).
-    By contributing to this project, you agree to abide by its
-terms.
+    Conduct](https://github.com/ropensci/grainchanger/blob/master/CODE_OF_CONDUCT.md).
+    By contributing to this project, you agree to abide by its terms.
 
 [![ropensci\_footer](https://ropensci.org/public_images/ropensci_footer.png)](https://ropensci.org)
