@@ -1,6 +1,6 @@
-82c9c8adfbe1d5c56074252bb9eb64b3 *DESCRIPTION
+14ac8055ebfc1f7c360c4c9b676f1732 *DESCRIPTION
 4817807f0d50fff736697cb0619eb238 *NAMESPACE
-2a3f894bf60792dc2e6af2ec79bd2842 *NEWS.md
+fbd323d20dbdc941cfd4dc17a30a8dcb *NEWS.md
 f32e22d6efbd113250b0d230ee90e0e1 *R/calc_functions.R
 2662588b15a702dde4b0584072f2c705 *R/create_torus.R
 d694e6acd3197cb8aa363e771f61abfc *R/data.R
@@ -17,7 +17,7 @@ dca387754bc8fff55606ab7035b763b8 *R/winmove.R
 008f4f0c0c00b1133591590781a5483f *data/poly_sf.rda
 f50d604c9a12ea7e9ce9a2de3b90c636 *inst/doc/grainchanger.R
 a13a5061ba744c149ff439afb52bf72f *inst/doc/grainchanger.Rmd
-25c6606cee330c957687a424758ede52 *inst/doc/grainchanger.html
+05fb81f70fdaf001d4a13aac17539182 *inst/doc/grainchanger.html
 e8d4e2ff765b9936616e1b783aec80b0 *inst/doc/user-defined.R
 233a4eee4aeadaeace06de5bb4571839 *inst/doc/user-defined.Rmd
 09a987023c7ed640a934d165297c2714 *inst/doc/user-defined.html
@@ -51,6 +51,6 @@ d6531d23972d3d20388a7fde9075b3fb *man/winmove.Rd
 69b6bd80d602f6b7a5921320876e19c3 *tests/testthat/test-create_torus.R
 e3426957f3b0abc14db3e1d5cfc29664 *tests/testthat/test-nomove_agg.R
 6a048ca7e61ec7bee0adf5e19a6ca38d *tests/testthat/test-winmove.R
-8c141b26f00aff0dc3e971e33a511a90 *tests/testthat/test-winmove_agg.R
+23f20b71416655ac18fb31ec1d6607b0 *tests/testthat/test-winmove_agg.R
 a13a5061ba744c149ff439afb52bf72f *vignettes/grainchanger.Rmd
 233a4eee4aeadaeace06de5bb4571839 *vignettes/user-defined.Rmd

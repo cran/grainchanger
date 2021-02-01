@@ -1,6 +1,6 @@
 Package: grainchanger
 Title: Moving-Window and Direct Data Aggregation
-Version: 0.3.1
+Version: 0.3.2
 Authors@R: c(person("Laura", "Graham", 
              email = "LauraJaneEGraham@gmail.com", 
              role = c("aut", "cre"),
@@ -32,10 +32,10 @@ URL: https://docs.ropensci.org/grainchanger/,
         https://github.com/ropensci/grainchanger
 BugReports: https://github.com/ropensci/grainchanger/issues
 NeedsCompilation: no
-Packaged: 2021-01-27 13:15:20 UTC; GrahamLZ
+Packaged: 2021-02-01 13:44:47 UTC; GrahamLZ
 Author: Laura Graham [aut, cre] (<https://orcid.org/0000-0002-3611-7281>),
   Felix Eigenbrod [ctb] (Input on initial conceptual development),
   Marco Sciaini [ctb] (Input on package development and structure)
 Maintainer: Laura Graham <LauraJaneEGraham@gmail.com>
 Repository: CRAN
-Date/Publication: 2021-01-29 10:50:02 UTC
+Date/Publication: 2021-02-01 15:20:08 UTC
